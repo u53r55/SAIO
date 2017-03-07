@@ -1,0 +1,7 @@
+D:\Projects\SAIO\Build\SAIO.exe.config
+D:\Projects\SAIO\SAIO\obj\Debug\SAIO.MainForm.resources
+D:\Projects\SAIO\SAIO\obj\Debug\SAIO.Properties.Resources.resources
+D:\Projects\SAIO\SAIO\obj\Debug\SAIO.csproj.GenerateResource.Cache
+D:\Projects\SAIO\SAIO\obj\Debug\SAIO.exe
+D:\Projects\SAIO\SAIO\obj\Debug\SAIO.pdb
+D:\Projects\SAIO\SAIO\obj\Debug\SAIO.csprojResolveAssemblyReference.cache
