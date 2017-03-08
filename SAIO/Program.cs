@@ -38,7 +38,7 @@ namespace SAIO
                     {
 
                         //Latest Version;
-                        string LatestVersion = wc.DownloadString("https://raw.githubusercontent.com/ImReallyShiny/SAIO/master/version.txt");
+                        string LatestVersion = wc.DownloadString("https://raw.githubusercontent.com/initPRAGMA/SAIO/master/version.txt");
                         string ExecutableLocation = typeof(Program).Assembly.CodeBase.Replace("file:///", "");
                         string CurrentVersion = FileVersionInfo.GetVersionInfo(ExecutableLocation).ProductVersion;
                         string CurrentExecutableName = typeof(Program).Assembly.GetName().Name + "-" + LatestVersion + ".exe";
@@ -48,7 +48,7 @@ namespace SAIO
                         {
                             MessageBox.Show(CurrentExecutableName);
                             //Download the Latest Version of the EXE file;
-                            wc.DownloadFile("https://github.com/ImReallyShiny/SAIO/raw/master/SAIO.exe", CurrentExecutableName);
+                            wc.DownloadFile("https://github.com/initPRAGMA/SAIO/raw/master/SAIO.exe", CurrentExecutableName);
                             
                             //Show a MessageBox asking to open Explorer to the file;
                             DialogResult mb = MessageBox.Show("Continue usage on the new update. Open Explorer and go to the Directory containing the updated .exe located at: " + ExecutableLocation.Replace("SAIO.EXE", CurrentExecutableName + " ?\""), "New Update Downloaded!", MessageBoxButtons.YesNo, MessageBoxIcon.Information, MessageBoxDefaultButton.Button1);
